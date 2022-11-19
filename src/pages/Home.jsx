@@ -7,7 +7,7 @@ export function Home () {
     return (
         <div className="container">
             <div className="overlay"></div>
-            <video src={videoBg} autoPlay loop muted/>
+            <video src={videoBg} autoPlay loop />
             <div className="content">
             <h1 className="animate__animated animate__tada animate__infinite">WELCOME
              <span className="to">TO</span></h1>
